@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    font-family: Tahoma;
+}
+
+/*Estilos Globais*/
+
+.div{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.paragrafo{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+    margin: 10px auto;
+    width: 980px;
+}
+
+/*Divs*/
+
+.Principal{
+    background-color: #b0ddfc;
+    padding: 1%;
+    margin-bottom: 2%;
+    a{
+        color: black;
+    }
+    img{
+        width: 10%;
+        text-align: justify;
+    }
+}
+
+.Imagem{
+    img{
+        width: 50%;
+    }
+}
+
+.Sobre{
+    span{
+        color: rgba(74,132,176,255);
+        font-weight: bold;
+    }
+    h2{
+        color: rgba(74,132,176,255);
+    }
+    p{
+        width: 600px;
+    }
+    img{
+        width: 50%;
+    }
+}
+
+.Servico{
+    background-color: #1d80c1;
+    margin-bottom: 0px;
+    color: white;
+    height: 280px;
+    p{
+        width: 600px;
+    }
+    span{
+        color: yellow;
+        font-weight: bold;
+    }
+    h2{
+        color: white;
+    }
+}
+
+.Corretores{
+    p{
+        width: 600px;
+        text-align: center;
+    }
+    img{
+        width: 40%;
+    }
+    span{
+        color: #1d80c1;
+        font-weight: bold;
+    }
+}
+
+.Contato{
+    background-color: #1d80c1;
+    color: white;
+    margin-bottom: 0px;
+    height: 400px;
+    padding-top: 1%;
+}
+
+/*Elementos Adicionais*/
+
+.pPreto{
+    background-color: black;
+    margin: 5px 300px;
+    padding: 8px 0;
+    width: 60%;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    span{
+        color: yellow;
+        font-weight: bold;
+    }
+}
+
+.listaServicos{
+    width: 135px;
+    margin: 28px auto 28px;
+    text-align: justify;
+}
+
+.conteudoListaServico{
+    font-size: 22px;
+    line-height: 42px;
+    color: #fff;
+}
+
+.listaContato{
+    width: 270px;
+    margin: 35px auto 35px;
+}
+
+.conteudoListaContato{
+    margin-top: 15px;
+    list-style: none;
+    text-align: center;
+}
+
+.barra, .centro, .meler{
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 3px 0;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+}
